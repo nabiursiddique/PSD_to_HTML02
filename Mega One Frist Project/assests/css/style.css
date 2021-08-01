@@ -1,0 +1,359 @@
+body{
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 26px;
+	letter-spacing: .5px;
+}
+
+.navbar .nav-item a.nav-link{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    border: 2px solid transparent;
+    padding: 6px 15px 6px 15px;
+
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 36px;
+    padding: 6px 15px 6px 15px;
+    transition: .2s ease-in;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 36px;
+    padding: 6px 15px 6px 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+/* Color */
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.frist-nav{
+	width: 100%;
+}
+/* bakground-redius */
+.bakground-redius{
+    background-image: linear-gradient( 315deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    background-image: linear-gradient( 135deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    height: 800px;
+    margin-bottom: 195px;
+    position: relative;
+	margin-top: -150px;
+	width: auto;
+}
+
+
+/*Text heading */
+.bakground-redius .heading-text{
+	margin-top: 23%;
+}
+.bakground-redius .frist-heading{
+
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 47px;
+ 
+}
+
+.frist-heading{
+	font-size: 47px;
+	color: white;
+}
+.bakground-redius .second-heading{
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Montserrat',sans-serif;
+	color: white;
+
+
+}
+.second-heading{
+	font-size: 16px;
+	font-weight: 600;
+	opacity: 0.8;
+
+}
+/* End heading texy */
+/* smart-phone-img */
+.smart-phone-img{
+	margin-top: 25px;
+	width: 300px;
+}
+/* Features */
+.features{
+	margin-top: -50px;
+}
+.features-main-heading{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 38px;
+	color: #444141;
+
+}
+.features-sub-heading{
+	font-size: 16px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 500;
+	color: black;
+	opacity: 0.7;
+	margin-bottom: 50px;
+
+}
+
+
+.main-heading{
+	color: #444141;
+}
+.icon-1{
+    background-image: -o-linear-gradient( 315deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    background-image: linear-gradient( 135deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    padding: 12px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgb(98, 58, 162);
+}
+.media-element .media {
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    padding: 20px 18px 20px 18px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.media-element .media:hover{
+border: 1px solid #e1e1e1;
+box-shadow: 1px 1px 10px #f6f6;
+translate: 0px -20px;
+}
+.width10{
+	background-image: linear-gradient( 135deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+	height: 6px;
+	width: 0;
+	position: absolute;
+	transition: 0.8s ease;
+	opacity: 0;
+}
+.media-element:hover .width10{
+	width: 92%;
+	opacity: 1;
+    translate: 0px -20px;
+}
+.media-body .main-heading{
+	font-size: 25px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.media-body .sub-heading{
+	font-size: 15px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	opacity: 0.8;
+
+}
+/* Owl carasol */
+.icon-2{
+    background-image: -o-linear-gradient( 315deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    background-image: linear-gradient( 135deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    padding: 12px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgb(98, 58, 162);
+    box-shadow: 1px 1px 10px rgb(98, 58, 162);
+}
+.icon-3{
+    background-image: -o-linear-gradient( 315deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    background-image: linear-gradient( 135deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgb(98, 58, 162);
+    box-shadow: 1px 1px 10px rgb(98, 58, 162);
+}
+.media-element1 .media1 {
+    transition:1s ease;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 1px 1px 10px rgb(98, 58, 162);
+    width: 350px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.media1:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    
+}
+.App-image{
+    border-radius: 35px;
+    transition: 0.7s ease-out;
+}
+.App-image:hover{
+    border-radius: 35px;
+    transform: scale3d(0.9, 0.9, 1);
+}
+.app-design-heading{
+	text-align: right;
+}
+.app-design-heading1{
+	text-align: left;
+}
+
+.mt-5{
+	margin-top: 200px;
+}
+.margin-app{
+	margin-top: 115px;
+}
+/* App Screenshot */
+.screenshoot-hover{
+    transition: 0.6s;
+}
+.screenshoot-hover:hover{
+    border: 2px solid transparent;
+    border-radius:100px;
+    transform: scale3d(0.9, 0.9, 1);
+}
+/* Our App */
+.btn-window{
+background-image: linear-gradient( 135deg, #ffffff 0%, #ffffff 100%);
+border: 2px solid #55ACEE;
+color: #000;
+font-weight: 400;
+padding: 16px 25px 16px 50px;
+text-align: center;
+cursor: pointer;
+transition: 0.8s ease;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background: #55ACEE;
+    border-color: #55ACEE;
+}
+.btn i {
+    font-size: 25px;
+}
+.our-app-icon{
+    position: absolute;
+    left: 55px;
+	top: 20%;
+}
+/* paralax */
+.parallax-window {
+    min-height: 400px;
+    /* background: transparent; */
+ 
+}
+/* Footer text */
+.footer-text{
+	font-size: 12px;
+letter-spacing: 0.8px;
+}
+.footer-hover{
+    text-align: center;
+}
+.footer-hover i{
+/* display: block; */
+width: 45px;
+height: 45px;
+text-align: center;
+line-height: 45px;
+border-radius: 50px;
+font-size: 17px;
+margin: 0 10px 0 0;
+border: 1px solid transparent;
+transition: background-color .2s ease-in-out;
+
+}
+.footer-hover i:hover{
+	/* background-color: #55ACEE;
+	color: white; */
+    background-color: white;
+    color: #55ACEE;
+}
+.margin-top{
+	padding: 20px;
+}
+.footer-bg-color{
+	background-color: #ddd;
+}
+/* Niha footer */
+.footer{
+    background-color: #55ACEE;
+    color:white;
+    height: 180px;
+    
+}
+/*------------------------------------------ Media --------------------------------------------*/
+
+@media screen and (max-width:767px){
+    .heading-text{
+
+        margin-top: 50%;
+    }
+    .heading-text .frist-heading {
+        font-size: 33px;
+        margin-top: 50%;
+    }
+    .heading-text .second-heading {
+        font-size: 13px;
+    }
+    .bakground-redius .frist-heading  {
+        margin-top: 42%;
+    }
+    .heading-text .frist-heading {
+        font-size: 38px;
+    }
+}
+   
+@media (min-width:768px) and (max-width:1100px){
+    	.bakground-redius{
+		padding-top: 50px;
+
+    }
+}
+@media (min-width:200px) and (max-width:400px){
+    	.nav-item:hover{
+		background-color: #55ACEE; 
+		opacity: 0.8;
+		border-radius: 36px;
+
+    }
+}
+@media (min-width:200px) and (max-width:767px){
+    	.bakground-redius{
+		padding-top: 80px;
+
+    }
+    .media-responsiv{
+    	padding: 5px; 
+    }
+    .owl-responsive{
+    	width: 270px;
+    }
+    }
